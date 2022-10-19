@@ -17,7 +17,7 @@ let package = Package(
             name: "iCarousel",
             path: "iCarousel",
             exclude: ["Info.plist"],
-            publicHeadersPath: "iCarousel"
+            publicHeadersPath: "."
         )
     ]
 )
