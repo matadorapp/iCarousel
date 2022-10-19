@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "iCarousel",
             dependencies: [],
-            path: ".",
+            path: "iCarousel",
             sources: ["iCarousel"],
             publicHeadersPath: "iCarousel"
         )
