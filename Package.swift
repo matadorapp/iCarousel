@@ -1,4 +1,5 @@
 // swift-tools-version:5.5
+
 import PackageDescription
 
 let package = Package(
@@ -14,10 +15,8 @@ let package = Package(
     targets: [
         .target(
             name: "iCarousel",
-            dependencies: [],
             path: "iCarousel",
-            sources: ["iCarousel"],
-            publicHeadersPath: "iCarousel"
+            exclude: ["Info.plist"]
         )
     ]
 )
